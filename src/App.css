@@ -1,0 +1,104 @@
+:root{
+  --primary-red: hsl(4, 100%, 67%);
+  --neutral-dark-slate-grey: hsl(234, 29%, 20%);
+  --neutral-Charcoal-Grey: hsl(235, 18%, 26%);
+  --neutral-grey: hsl(231, 7%, 60%); 
+  --neutral-white: hsl(0, 0%, 100%)
+}
+
+
+
+.body{
+  background-color: var(--neutral-Charcoal-Grey) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+.signUp-Container{
+  background-color: var(--neutral-white);
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  /* max-height: 500px; */
+}
+
+.content-section{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 300px;
+  gap: 25px;
+}
+
+.content-section h1{
+  font-size: 45px;
+}
+
+.content-section p{
+  font-size: 13px;
+}
+
+.lists{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.list img{
+  height: 15px;
+  width: 15px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label{
+  font-size: 12px;
+}
+
+form input{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.successEmail{
+  border: 1px solid var(--neutral-grey);
+}
+
+.errorEmail{
+  border-color: hsl(4, 100%, 67%);
+}
+
+form button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background-color: var(--neutral-dark-slate-grey);
+  color: var(--neutral-white);
+  font-size: 12px;
+}
+
+.image-section img{
+  height: 400px;
+  /* width: 400px; */
+}

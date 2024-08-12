@@ -1,0 +1,37 @@
+.success-container{
+    background-color: var(--neutral-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 20px;
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.success-container img{
+    width: 45px;
+}
+
+.success-container h1{
+    font-size: 40px;
+}
+
+.success-container p{
+    color: var(--neutral-Charcoal-Grey);
+    font-size: 15px;
+}
+
+.success-container span{
+    font-weight: 700;
+}
+
+.success-container button{
+    padding: 10px;
+        border-radius: 5px;
+        border: 0;
+        background-color: var(--neutral-dark-slate-grey);
+        color: var(--neutral-white);
+        font-size: 12px;
+}
